@@ -5,7 +5,7 @@ find dual mono files finds dual mono files and allows to convert them to mono (s
 
 ## INSTALL:
 * download <a href="http://sox.sourceforge.net/">SoX</a> (install, set path in findDualMono.bat, don't use spaces in _soxExe!)
-* move finddualmono.bat to SoX directory
+* move findDualMono.bat to SoX directory
 
 ## USAGE:
 ```
