@@ -4,7 +4,7 @@ v. 2.0<br>(c) kamilbaranski.com
 find dual mono files finds dual mono files and allows to convert them to mono (stripping one channel).
 
 ## INSTALL:
-* download <a href="http://sox.sourceforge.net/">SoX</a> (install, set path in source, don't use spaces in _soxExe!)
+* download <a href="http://sox.sourceforge.net/">SoX</a> (install, set path in findDualMono.bat, don't use spaces in _soxExe!)
 * move finddualmono.bat to SoX directory
 
 ## USAGE:
