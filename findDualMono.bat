@@ -1,20 +1,35 @@
 @echo off
 
-rem ------------------------------------------------------------------------------------------------------------
-rem findDualMono.bat
-rem v. 2.0
-rem (c) kamilbaranski.com
-rem ------------------------------------------------------------------------------------------------------------
-rem find dual mono files finds dual mono files and allows to convert them to mono (stripping one channel).
-rem INSTALL:
-rem - download SoX (install, set path below, don't use spaces in _soxExe!)
-rem - move finddualmono.bat to SoX directory
-rem - ready. launch by typing:
-rem     cd directoryWithWavFiles
-rem     c:\progra~2\sox-14-4-2\finddualmono.bat
-rem 
-rem *nothing guaranteed, use at your own risk :)
-rem ------------------------------------------------------------------------------------------------------------
+
+if [%1]==[/?] (
+    echo findDualMono.bat v. 2.0 ^(c^) kamilbaranski.com
+    echo.
+    echo.
+    echo Usage:
+    echo   cd path_of_WAV_files ^&^& findDualMono_path\findDualMono.bat
+    echo.
+    echo.
+    echo Finds dual mono files and allows to convert them to mono
+    echo ^(stripping one channel using sox^)
+    echo.
+    echo.
+    echo Please send any bug reports and all your money to kamilbaranski.com.
+    echo.
+
+    rem -----------------------------------------------------------------------------
+    rem INSTALL:
+    rem - download SoX (install, set path below, don't use spaces in _soxExe!)
+    rem - move finddualmono.bat to SoX directory
+    rem - ready. launch by typing:
+    rem     cd directoryWithWavFiles
+    rem     c:\progra~2\sox-14-4-2\finddualmono.bat
+    rem 
+    rem *nothing guaranteed, use at your own risk :)
+    rem -----------------------------------------------------------------------------
+
+	exit /B
+)
+
 
 set _soxExe=c:\progra~2\sox-14-4-2\sox.exe
 
